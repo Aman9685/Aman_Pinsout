@@ -1146,18 +1146,20 @@ html,body {
 }
 
 .comment {
-    width: 100%;
+    width: 95%;
     height: 80%;
     /* background-color: blue; */
-}
-#page4 .section {
-    width: 90%;
-    height: 230px;
-    /* background-color: rgb(77, 169, 189); */
     position: absolute;
     top: 0;
     left: 5%;
+}
+
+#page4 .section {
+    width: 90%;
+    height: 200px;
+    /* background-color: rgb(77, 169, 189); */
     display: flex;
+    border-top: 1px solid rgb(180, 180, 180);
 }
 
 .section .section-lft {
@@ -1170,11 +1172,12 @@ html,body {
     width: 100px;
     height: 100px;
     /* background-color: rgb(29, 188, 56); */
-    background-image: url("7.webp");
+    background-image: url("https://images.unsplash.com/photo-1551022372-0bdac482b9d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Ym95c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
     background-position: center;
     background-size: cover;
     border-radius: 100px;
     margin-left: 40px;
+    margin-top: 20px;
 }
 
 
@@ -1182,6 +1185,7 @@ html,body {
     width: 1200px;
     height: 100%;
     /* background-color: rgb(152, 200, 56); */
+    margin-top: 20px;
 }
 
 .section-rgt h3 {
@@ -1213,6 +1217,176 @@ html,body {
     color: rgb(65, 65, 65);
 }
 
+.comment a {
+    font-size: 13px;
+    font-weight: 450;
+    color: rgb(100, 100, 100);
+    margin-left: 180px;
+}
+
+
+
+#page5 {
+    width: 100%;
+    height: 90%;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+
+#page5 h4 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(42, 42, 42);
+    margin-left: 600px;
+    letter-spacing: 1px;
+}
+
+#page5 .card-div {
+    width: 90%;
+    height: 470px;
+    /* background-color: rgb(180, 155, 203); */
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-div .cards {
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(222, 226, 147); */
+}
+
+.cards .card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: rgb(99, 103, 26); */
+}
+
+.card-top img {
+    width: 100%;
+    height: 100%;
+}
+
+.cards .card-bottom {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(236, 236, 236);
+}
+
+.card-bottom h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.card-bottom h6 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: orangered;
+}
+
+
+#page6 {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(38, 38, 38);
+    position: relative;
+}
+
+#page6 #fotter {
+    width: 80%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    display: flex;
+    border-bottom: 2px solid rgb(208, 208, 208);
+}
+
+#fotter #fotter-lft {
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(240, 180, 100); */
+}
+
+#f-content {
+    width: 280px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#f-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4px;
+}
+
+#f-content input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    color: rgb(160, 160, 160);
+    margin-top: 20px;
+}
+
+#f-icons {
+    width: 100px;
+    height: 40px;
+    /* background-color: blueviolet; */
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#f-icons a {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+#fotter #fotter-rgt {
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(134, 199, 219); */
+    display: flex;
+    justify-content: space-between;
+}
+
+#fotter-rgt .f-cards {
+    width: 24%;
+    height: 100%;
+    /* background-color: rgb(209, 188, 228); */
+   
+}
+
+.f-cards h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+.f-cards a {
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(243, 243, 243);
+    margin-top: 40px;
+    text-decoration: none;
+    
+}
 
 
 
